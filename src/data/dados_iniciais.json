@@ -1,0 +1,231 @@
+{
+  "categorias": [
+    {
+      "titulo": "Música",
+      "link": "https://open.spotify.com/",
+      "cor": "",
+      "link_extra": {
+        "text": "Spotify Web Player",
+        "url": "https://open.spotify.com/"
+      },
+      "videos": [
+        {
+          "titulo": "David Gilmour - Comfortably Numb (Live At Pompeii)",
+          "url": "https://www.youtube.com/watch?v=eHKG7EMxWW8"
+        },
+        {
+          "titulo": "Roger Waters - \"Pigs (Three Different Ones)\"",
+          "url": "https://www.youtube.com/watch?v=QWLBtMz5OuY"
+        },
+        {
+          "titulo": "Dave Matthews Band - #41 (Europe 2009)",
+          "url": "https://www.youtube.com/watch?v=ulq0mh5ok00"
+        },
+        {
+          "titulo": "Milton Nascimento - Nos Bailes Da Vida",
+          "url": "https://www.youtube.com/watch?v=laVg1KIdVnY"
+        },
+        {
+          "titulo": "Secos & Molhados - Sangue Latino",
+          "url": "https://www.youtube.com/watch?v=-zLicyzaH5A"
+        },
+        {
+          "titulo": "Elis Regina - Como Nossos Pais",
+          "url": "https://www.youtube.com/watch?v=2qqN4cEpPCw"
+        },
+        {
+          "titulo": "Metallica & San Francisco Symphony: Nothing Else Matters (Live)",
+          "url": "https://www.youtube.com/watch?v=JhWfrtIPZjk"
+        },
+        {
+          "titulo": "David Gilmour - A Great Day For Freedom (Live In Gdańsk)",
+          "url": "https://www.youtube.com/watch?v=hzYvF7sWWPw"
+        },
+        {
+          "titulo": "Roger Waters -\" Pigs on the Wing / Dogs \"",
+          "url": "https://www.youtube.com/watch?v=_wMDb7ddSeY"
+        },
+        {
+          "titulo": "Dave Matthews Band- Crush",
+          "url": "https://www.youtube.com/watch?v=ay5kvPzvvTc"
+        },
+        {
+          "titulo": "Caçador de Mim, por Milton Nascimento - Sr. Brasil 12/05/2013",
+          "url": "https://www.youtube.com/watch?v=PmHCFConF14"
+        },
+        {
+          "titulo": "\"Two Suns in the Sunset\"",
+          "url": "https://www.youtube.com/watch?v=P_m2CZU9vdk"
+        },
+        {
+          "titulo": "Pearl Jam - Sirens",
+          "url": "https://www.youtube.com/watch?v=4jZBwyG7HPs"
+        },
+        {
+          "titulo": "Casa No Campo / Caçador De Mim / Espanhola (Ao Vivo No Rio De Janeiro / 2002 / Medley)",
+          "url": "https://www.youtube.com/watch?v=SSv-hKgVmbI"
+        }      
+      ]
+    },
+    {
+      "titulo": "Ciência",
+      "cor": "",
+      "videos": [
+        {
+          "titulo": "Pálido Ponto Azul, de Carl Sagan",
+          "url": "https://www.youtube.com/watch?v=4_tiv9v964k"
+        },
+        {
+          "titulo": "Buraco Negro | Nerdologia",
+          "url": "https://www.youtube.com/watch?v=ThG5RHBR7dA"
+        },
+        {
+          "titulo": "O que é uma espécie, afinal? (#Pirula 305)",
+          "url": "https://www.youtube.com/watch?v=1F9zlmjx6OE"
+        },
+        {
+          "titulo": "O Gato de Schrödinger Explicado",
+          "url": "https://www.youtube.com/watch?v=pKEq8d_1pn4"
+        },
+        {
+          "titulo": "Ondas Gravitacionais | Nerdologia",
+          "url": "https://www.youtube.com/watch?v=z71O5cHTOvM"
+        },
+        {
+          "titulo": "Quarta dimensão explicada por Carl Sagan",
+          "url": "https://www.youtube.com/watch?v=WMZNLy0hGEI"
+        },
+        {
+          "titulo": "Existe diferença entre golpe e revolução? | Nerdologia",
+          "url": "https://www.youtube.com/watch?v=awhJ45W--bI&t=13s"
+        },
+        {
+          "titulo": "Eratóstenes e a circunferência da terra",
+          "url": "https://www.youtube.com/watch?v=fu9Z7YuXLVE"
+        },
+        {
+          "titulo": "Terra Plana e o Filtro pra Teorias da Conspiração (#Pirula 130)",
+          "url": "https://www.youtube.com/watch?v=yzY7swaTwmA"
+        },
+        {
+          "titulo": "A GRANDE DUVIDA DA HUMANIDADE RESPONDIDA: 0,999... = 1 ?? | O Físico Turista #20",
+          "url": "https://www.youtube.com/watch?v=m6tAG5dGEI8"
+        }
+      ]
+    },
+    {
+      "titulo": "Cinema",
+      "cor": "",
+      "link_extra": {
+        "text": "Canal EntrePlanos",
+        "url": "https://www.youtube.com/channel/UCZq_CYXRoRjKqidapMPujaQ"
+      },
+      "videos": [
+        {
+          "titulo": "Por Que Este Curta É Um Clássico do Cinema Brasileiro",
+          "url": "https://www.youtube.com/watch?v=SF6L3ukz9sI"
+        },
+        {
+          "titulo": "Por Que Você Precisa OUVIR \"Era Uma Vez no Oeste\"",
+          "url": "https://www.youtube.com/watch?v=hVL2gc_CRTY"
+        },
+        {
+          "titulo": "TERROR CÓSMICO: Por Que É Tão Difícil de Filmar?",
+          "url": "https://www.youtube.com/watch?v=d1kqFaJQ1zE"
+        },
+        {
+          "titulo": "A Surpreendente Origem do BESTEIROL",
+          "url": "https://www.youtube.com/watch?v=zkDjjtIEEa8"
+        },
+        {
+          "titulo": "\"Dois Irmãos\": Como A Pixar Usa Sistemas de Magia",
+          "url": "https://www.youtube.com/watch?v=Lo0Eb-OVQnk"
+        },
+        {
+          "titulo": "Como \"Metrópolis\" Revolucionou o Cinema",
+          "url": "https://www.youtube.com/watch?v=pU0k9YzNMwM"
+        },
+        {
+          "titulo": "O Que Ratatouille Nos Ensina Sobre A Crítica de Arte",
+          "url": "https://www.youtube.com/watch?v=xwX7kzpIR68"
+        },
+        {
+          "titulo": "Como Você Interpreta Um Filme?",
+          "url": "https://www.youtube.com/watch?v=9lZTb7xrcc4"
+        },
+        {
+          "titulo": "Dissecando a Cena Mais Icônica de Pulp Fiction",
+          "url": "https://www.youtube.com/watch?v=lgwAaOTO-z8"
+        },
+        {
+          "titulo": "Outra Interpretação Possível Para \"This Is America\"",
+          "url": "https://www.youtube.com/watch?v=s4088P_flIE"
+        },
+        {
+          "titulo": "O Documentário FALSO Que Mudou o Cinema",
+          "url": "https://www.youtube.com/watch?v=HxSFMgxRV_M"
+        },
+        {
+          "titulo": "Moonlight: Uma História de Cor e Luz",
+          "url": "https://www.youtube.com/watch?v=Xoxn25CAryI"
+        },
+        {
+          "titulo": "O Herói Que Mudou os Filmes de Faroeste",
+          "url": "https://www.youtube.com/watch?v=IjeLWKoh_ZE"
+        }
+      ]
+    },
+    {
+      "titulo": "Magic",
+      "cor": "",
+      "link_extra": {
+        "text": "Canal Diario Planinauta",
+        "url": "https://www.youtube.com/user/nerdologia"
+      },
+      "videos": [
+        {
+          "titulo": "Hora do Mesão Episódio 5: Confronto de Tribos!",
+          "url": "https://www.youtube.com/watch?v=95Apoxv0MVc"
+        },
+        {
+          "titulo": "História de Innistrad - parte 01 : Conhecendo Innistrad",
+          "url": "https://www.youtube.com/watch?v=eF8e7oieVws"
+        },
+        {
+          "titulo": "Pixtola League: A incrível virada de Tunim Sempai (Temur Reclamation x MonoWhite LifeGain)",
+          "url": "https://www.youtube.com/watch?v=PgB3LlS7ylY"
+        },
+        {
+          "titulo": "Se você joga Magic hoje, agradeça a esse cara.",
+          "url": "https://www.youtube.com/watch?v=KVXnoRsCIS4"
+        }
+      ]
+    },
+    {
+      "titulo": "Culinaria",
+      "cor": "",
+      "videos": [
+        {
+          "titulo": "RECEITA CASEIRA DO ORÁCULO BURGER - XEPA",
+          "url": "https://www.youtube.com/watch?v=_bspJojod1k"
+        },
+        {
+          "titulo": "Camemburger | A Maravilhosa Cozinha de Jack S05E22",
+          "url": "https://www.youtube.com/watch?v=5Au5VZEwBj0"
+        },
+        {
+          "titulo": "Coroa de Javali | Especial de Aniversário A Maravilhosa Cozinha de Jack",
+          "url": "https://www.youtube.com/watch?v=IP9DZLhWbr4"
+        },
+        {
+          "titulo": "BOLO DE CENOURA VULCÃO feat TALENTO SUPREMO | TODO MUNDO CONTRA O BIGODE",
+          "url": "https://www.youtube.com/watch?v=nudhgnjCIAk"
+        },
+        {
+          "titulo": "PASTEL DE FEIRA | BIGODE SOZINHO NA COZINHA | DANI NOCE RECEITA",
+          "url": "https://www.youtube.com/watch?v=cQfa7Cb1Vss"
+        }
+      ]
+    }
+  ]
+}
