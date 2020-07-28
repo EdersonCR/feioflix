@@ -22,10 +22,12 @@ export const ExtraLink = styled.a`
   margin-left: 16px;
   text-decoration: none;
   transition: color .3s;
+
   &:hover,
   &:focus {
     color: var(--primary);
   }
+
   @media (max-width: 800px) {
     display: block;
     margin-bottom: 16px;
@@ -47,7 +49,6 @@ export const VideoCardList = styled.ul`
   li {
     margin-right: 16px;
   }
-
 `;
 
 export const VideoCardGroupContainer = styled.section`
