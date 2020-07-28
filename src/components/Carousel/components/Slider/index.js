@@ -16,6 +16,7 @@ const Container = styled.ul`
     width: 30px;
     height: 30px;
     transform: initial;
+    
 
     &:before {
       font-size: 30px;
@@ -23,7 +24,7 @@ const Container = styled.ul`
   }
   
   .slick-prev {
-    left: 0;
+    left: 16px;
   }
 
   .slick-next {
@@ -51,6 +52,27 @@ const Slider = ({ children }) => (
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
+      slidesToScroll: 4,
+      responsive: [
+        {
+          breakpoint: 1303,
+          settings: {
+            slidesToScroll: 3,
+          }
+        },
+        {
+          breakpoint: 974,
+          settings: {
+            slidesToScroll: 2,
+          }
+        },
+        {
+          breakpoint: 642,
+          settings: {
+            slidesToScroll: 1,
+          }
+        }
+      ],
     }}
     >
       {children}
