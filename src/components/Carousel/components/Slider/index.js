@@ -47,29 +47,32 @@ const Slider = ({ children }) => (
   <Container>
     <SlickSlider {...{
       dots: false,
-      infinite: true,
-      speed: 300,
+      infinite: true,         // Altera para Carrossel Infinito   
+      speed: 1200,
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
-      slidesToScroll: 4,
-      responsive: [
+      slidesToScroll: 4,      // Define para mover 4 videos ao mesmo tempo 
+      responsive: [           // Define para mover menos videos ao mesmo tempo para telas menores (1303px, 974px e 642px)
         {
           breakpoint: 1303,
           settings: {
             slidesToScroll: 3,
+            speed: 900,
           }
         },
         {
           breakpoint: 974,
           settings: {
             slidesToScroll: 2,
+            speed: 600,
           }
         },
         {
           breakpoint: 642,
           settings: {
             slidesToScroll: 1,
+            speed: 300,
           }
         }
       ],
