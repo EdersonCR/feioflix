@@ -2,6 +2,7 @@
 import React from 'react';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Container = styled.ul`
   padding: 0;
@@ -19,7 +20,7 @@ const Container = styled.ul`
 
     &:before {
       font-size: 36px;
-      color: ${({cor}) => `${cor}`};
+      color: ${({ cor }) => `${cor}`};
       opacity: 1;
     }
 
@@ -53,37 +54,11 @@ const Slider = ({ children, cor }) => (
   <Container cor={cor}>
     <SlickSlider {...{
       dots: false,
-      infinite: true,         // Altera para Carrossel Infinito   
+      infinite: true, // Altera para Carrossel Infinito
       speed: 400,
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
-      /*
-      slidesToScroll: 1,      // Define para mover 4 videos ao mesmo tempo 
-      responsive: [           // Define para mover menos videos ao mesmo tempo para telas menores (1303px, 974px e 642px)
-        {
-          breakpoint: 1303,
-          settings: {
-            slidesToScroll: 3,
-            speed: 900,
-          }
-        },
-        {
-          breakpoint: 974,
-          settings: {
-            slidesToScroll: 2,
-            speed: 600,
-          }
-        },
-        {
-          breakpoint: 642,
-          settings: {
-            slidesToScroll: 1,
-            speed: 300,
-          }
-        }
-      ]
-      */
     }}
     >
       {children}
@@ -91,4 +66,10 @@ const Slider = ({ children, cor }) => (
   </Container>
 );
 
-export default Slider; 
+Slider.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  children: PropTypes.array.isRequired,
+  cor: PropTypes.string.isRequired,
+};
+
+export default Slider;

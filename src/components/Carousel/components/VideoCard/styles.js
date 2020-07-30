@@ -44,6 +44,8 @@ export const VideoCardContainer = styled.a`
   }
 `;
 
+export default VideoCardContainer;
+
 VideoCardContainer.Title = styled.div`
   position: absolute;
   top: 0;

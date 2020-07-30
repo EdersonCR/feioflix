@@ -6,14 +6,16 @@ import Menu from '../../components/Menu';
 import Footer from '../../components/Footer';
 
 function Home() {
+  // eslint-disable-next-line no-console
+  console.log(typeof dadosIniciais);
   return (
-    <div style={{background: "var(--black)"}}>
+    <div style={{ background: 'var(--black)' }}>
       <Menu />
 
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Em 2016 o guitarrista David Gilmour se apresentou na lendária cidade de Pompeia, na Itália. O show marcou o retorno do guitarrista ao mesmo local onde, 45 anos antes, o Pink Floyd fez história ao se apresentar e lançar o histórico Live At Pompeii."}
+        videoDescription="Em 2016 o guitarrista David Gilmour se apresentou na lendária cidade de Pompeia, na Itália. O show marcou o retorno do guitarrista ao mesmo local onde, 45 anos antes, o Pink Floyd fez história ao se apresentar e lançar o histórico Live At Pompeii."
       />
 
       <Carousel
@@ -27,15 +29,15 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[2]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[3]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[4]}
-      />           
+      />
 
       <Footer />
     </div>

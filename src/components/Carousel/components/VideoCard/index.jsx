@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { VideoCardContainer } from './styles';
 
 function getYouTubeId(youtubeURL) {
@@ -23,9 +24,15 @@ function VideoCard({ videoTitle, videoURL, categoryColor }) {
         <VideoCardContainer.Title.Text>
           {videoTitle}
         </VideoCardContainer.Title.Text>
-      </VideoCardContainer.Title> 
+      </VideoCardContainer.Title>
     </VideoCardContainer>
   );
 }
+
+VideoCard.propTypes = {
+  videoTitle: PropTypes.string.isRequired,
+  videoURL: PropTypes.string.isRequired,
+  categoryColor: PropTypes.string.isRequired,
+};
 
 export default VideoCard;

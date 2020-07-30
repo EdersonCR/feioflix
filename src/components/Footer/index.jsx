@@ -7,7 +7,7 @@ function Footer() {
   return (
     <FooterBase>
       <a href="https://www.alura.com.br/">
-          <img className="Logo" src={logo} alt="Logo da Feioflix" />
+        <img className="Logo" src={logo} alt="Logo da Feioflix" />
       </a>
       <TextLinkImage>
         Orgulhosamente criado durante a

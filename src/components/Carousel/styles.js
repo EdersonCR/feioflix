@@ -25,7 +25,7 @@ export const ExtraLink = styled.a`
 
   &:hover,
   &:focus {
-    color: ${({cor}) => `${cor}`};
+    color: ${({ cor }) => `${cor}`};
   }
 
   @media (max-width: 800px) {
