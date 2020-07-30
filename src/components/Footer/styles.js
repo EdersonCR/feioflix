@@ -14,3 +14,17 @@ export const FooterBase = styled.footer`
     margin-bottom: 50px;
   }
 `;
+
+export const TextLinkImage = styled.p`
+	margin: auto;
+	vertical-align: middle;
+`;
+
+export const Image = styled.img`
+	max-width: 75px;
+	vertical-align: middle;
+
+	@media (max-width: 800px) {
+		max-width: 50px;
+	}
+`;

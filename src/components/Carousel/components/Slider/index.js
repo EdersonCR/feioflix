@@ -15,6 +15,7 @@ const Container = styled.ul`
     width: 30px;
     height: 30px;
     transform: initial;
+    transition: opacity .5s;
 
     &:before {
       font-size: 36px;
@@ -23,7 +24,7 @@ const Container = styled.ul`
     }
 
     &:hover {
-      opacity: 0.6;
+      opacity: 0.8;
     }
   }
   

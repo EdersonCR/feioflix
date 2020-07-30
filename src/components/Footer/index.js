@@ -1,20 +1,21 @@
 import React from 'react';
-import logo from "../../assets/img/logo.png";
-import { FooterBase } from './styles';
+import logo from '../../assets/img/logo.png';
+import logoImersao from '../../assets/img/logo-imersao.svg';
+import { FooterBase, TextLinkImage, Image } from './styles';
 
 function Footer() {
   return (
     <FooterBase>
       <a href="https://www.alura.com.br/">
-          <img className="Logo" src={logo} alt="ALogo da Feioflix" />
+          <img className="Logo" src={logo} alt="Logo da Feioflix" />
       </a>
-      <p>
+      <TextLinkImage>
         Orgulhosamente criado durante a
         {' '}
         <a href="https://www.alura.com.br/">
-          Imersão React da Alura
+          <Image src={logoImersao} alt="Logo da Imersão React Alura" />
         </a>
-      </p>
+      </TextLinkImage>
     </FooterBase>
   );
 }
