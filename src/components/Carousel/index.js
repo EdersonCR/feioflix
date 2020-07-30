@@ -16,13 +16,13 @@ function Carousel({ ignoreFirstVideo, category, }) {
             {categoryTitle}
           </Title>
           {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
+            <ExtraLink href={categoryExtraLink.url} target="_blank" cor={categoryColor || 'var(--primary)'} >
               {categoryExtraLink.text}  
             </ExtraLink>
           }
         </>
       )}
-      <Slider>
+      <Slider cor={categoryColor || 'var(--primary)'}> 
         {videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;

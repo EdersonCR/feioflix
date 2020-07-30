@@ -8,7 +8,7 @@ export const Title = styled.h3`
   margin-bottom: 16px;
   display: inline-block;
   padding: 20px;
-  background: red;
+  background: var(--primary);
   line-height: 1;
   border-radius: 4px;
 
@@ -25,7 +25,7 @@ export const ExtraLink = styled.a`
 
   &:hover,
   &:focus {
-    color: var(--primary);
+    color: ${({cor}) => `${cor}`};
   }
 
   @media (max-width: 800px) {
@@ -43,8 +43,6 @@ export const VideoCardList = styled.ul`
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  scrollbar-color: var(--primary) var(--black);
-  scrollbar-width: thin;
 
   li {
     margin-right: 16px;
@@ -53,7 +51,7 @@ export const VideoCardList = styled.ul`
 
 export const VideoCardGroupContainer = styled.section`
   color: white;
-  min-height: 197px;
+  min-height: 216.7px;
   margin-left: 5%;
   margin-bottom: 16px;
 `;

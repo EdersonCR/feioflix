@@ -122,7 +122,10 @@ export const WatchButton = styled.button`
   border-color: var(--primary);;
   transition: all .3s;
   display: none;
+  width: 118px;
   margin: 0 auto;
+  left: 0;
+  right: 0;
 
   &:hover,
   &:focus {
