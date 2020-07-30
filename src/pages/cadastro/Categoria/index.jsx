@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
@@ -12,23 +12,7 @@ function CadastroCategoria() {
   };
 
   const [values, setValues] = useState(valoresIniciais);
-  const [categorias, setCategorias] = useState([
-    {
-      nome: 'Musica',
-      descricao: 'Minhas musicas preferidas',
-      cor: '#1DB954',
-    },
-    {
-      nome: 'Ciência',
-      descricao: 'Videos de ciência',
-      cor: '#1d00d4',
-    },
-    {
-      nome: 'Cinema',
-      descricao: 'Criticas de filmes',
-      cor: '#540554',
-    },
-  ]); // Valores iniciais para teste
+  const [categorias, setCategorias] = useState([]); // Valores iniciais para teste
 
   function setValue(key, value) {
     setValues({
@@ -51,6 +35,18 @@ function CadastroCategoria() {
 
     setValues(valoresIniciais);
   }
+
+  useEffect(() => {
+    const url = 'http://localhost:8080/categorias';
+
+    fetch(url)
+      .then(async (serverDados) => {
+        const dados = await serverDados.json();
+        setCategorias([
+          ...dados,
+        ]);
+      });
+  }, []);
 
   return (
     <PageDefault>
@@ -89,12 +85,15 @@ function CadastroCategoria() {
         </Button>
       </form>
 
+      <div>
+        {}
+      </div>
+
       <ul>
         {categorias.map((categoria) => (
           <li key={`${categoria.nome}`} style={{ color: categoria.cor }}>
             {categoria.nome}
-            {' '}
-            -
+            {' - '}
             {categoria.descricao}
           </li>
         ))}
