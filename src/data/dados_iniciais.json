@@ -3,7 +3,7 @@
     {
       "titulo": "Música",
       "link": "https://open.spotify.com/",
-      "cor": "",
+      "cor": "#6B5BE2",
       "link_extra": {
         "text": "Spotify Web Player",
         "url": "https://open.spotify.com/"
@@ -69,7 +69,7 @@
     },
     {
       "titulo": "Ciência",
-      "cor": "",
+      "cor": "#FFBA05",
       "videos": [
         {
           "titulo": "Pálido Ponto Azul - Carl Sagan",
@@ -115,7 +115,7 @@
     },
     {
       "titulo": "Cinema",
-      "cor": "",
+      "cor": "#2A7AE4",
       "link_extra": {
         "text": "Canal EntrePlanos",
         "url": "https://www.youtube.com/channel/UCZq_CYXRoRjKqidapMPujaQ"
@@ -177,7 +177,7 @@
     },
     {
       "titulo": "Magic",
-      "cor": "",
+      "cor": "#1DB954",
       "link_extra": {
         "text": "Canal Diario Planinauta",
         "url": "https://www.youtube.com/user/nerdologia"
@@ -203,7 +203,7 @@
     },
     {
       "titulo": "Culinaria",
-      "cor": "",
+      "cor": "#DC6EBE",
       "videos": [
         {
           "titulo": "Receita - Oráculo Burguer",
