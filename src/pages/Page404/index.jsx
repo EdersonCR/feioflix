@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../components/PageDefault';
+import Button from '../../components/Button';
 
 function CadastroVideo() {
   return (
@@ -10,7 +11,9 @@ function CadastroVideo() {
         A página que você está tentando acessar não existe ou o link que você utilizou está
         quebrado. Verifique se a url que você está utilizando está correta e tente novamente.
       </p>
-      <Link to="/">Ir para Home</Link>
+      <Button as={Link} to="/">
+        Ir para Home
+      </Button>
     </PageDefault>
   );
 }

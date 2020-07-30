@@ -8,7 +8,7 @@ function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '#1DB954',
+    cor: '#212121',
   };
 
   const [values, setValues] = useState(valoresIniciais);
@@ -55,12 +55,12 @@ function CadastroCategoria() {
   return (
     <PageDefault>
 
-      <h1>Cadastro de Categoria</h1>
+      <h1>Cadastro de categoria</h1>
 
       <form onSubmit={handleSubmit}>
 
         <FormField
-          label="Nome da Categoria: "
+          label="Nome da Categoria"
           type="text"
           name="nome"
           value={values.nome}
@@ -68,8 +68,8 @@ function CadastroCategoria() {
         />
 
         <FormField
-          tag="textarea"
-          label="Descrição: "
+          as="textarea"
+          label="Descrição"
           type="textarea"
           name="descricao"
           value={values.descricao}
@@ -77,7 +77,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Cor: "
+          label="Cor"
           type="color"
           name="cor"
           value={values.cor}
