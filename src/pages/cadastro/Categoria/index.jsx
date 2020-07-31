@@ -37,9 +37,11 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const url = 'http://localhost:8080/categorias';
+    const URL_DB = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://feioflix.herokuapp.com/categorias';
 
-    fetch(url)
+    fetch(URL_DB)
       .then(async (serverDados) => {
         const dados = await serverDados.json();
         setCategorias([
@@ -85,9 +87,13 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-      <div>
-        {}
-      </div>
+      {categorias.lenght === 0 && (
+        <div>
+          <p style={{ padding: '5px 0' }}>
+            Carregando categorias...
+          </p>
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (
